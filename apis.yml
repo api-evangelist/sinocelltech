@@ -1,7 +1,25 @@
 aid: sinocelltech
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sinocelltech.png
 name: sinocelltech
-description: sinocelltech is a company surfaced as a portfolio company of qiming and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Sinocelltech (Beijing Sino Cell Biotechnology Group Co., Ltd.; Shanghai
+  Stock Exchange STAR Market code 688520) is a biopharmaceutical research and development
+  company founded in 2002 by Dr. Xie Liangzhi. It develops and commercializes recombinant
+  protein and monoclonal antibody therapeutics across oncology, autoimmune disease,
+  and infectious disease, together with preventive vaccines including a recombinant
+  14-valent HPV vaccine and COVID-19 vaccines. The company has multiple marketed products
+  in China and a pipeline of clinical-stage candidates. It publishes no public developer
+  platform, API, or technical documentation surface.
 url: https://raw.githubusercontent.com/api-evangelist/sinocelltech/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Biotechnology
+- Biopharmaceutical
+- Pharmaceutical
+- Vaccines
+- Monoclonal Antibodies
+- Oncology
+- China
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +46,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/sinocelltech-domain-security.yml
 - type: Website
   url: https://sinocelltech.com
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
